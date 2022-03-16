@@ -1,0 +1,81 @@
+/* CSS FOR MEETING ENTRY */
+
+#Meetings {
+  Overflow-y: auto;
+  Overflow-x: hidden;
+}
+
+#Suggestions {
+  Overflow-y: auto;
+  Overflow-x: hidden;
+}
+
+.container {
+  border-radius: 6px;
+  width: 96%;
+}
+
+.container:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateX(5px) scale(1.01);
+  cursor: pointer;
+}
+
+.containerNoHover {
+  border-radius: 6px;
+  width: 96%;
+}
+
+#Meetings .empty-contents {
+  color: rgb(172, 161, 161);
+  text-align: center;
+  padding-top: 75%;
+}
+
+.meeting {
+  font-size: 12px;
+  padding: 15px 10px 10px;
+  display: table;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  
+  width: auto;      /** NEW **/
+  border-radius: 6px;    /** NEW **/
+}
+
+.meeting .meetingPic {
+  width: 45px;   /**** CHANGE SIZE HERE ****/
+  display: block;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+}
+
+.meeting .meetingDetails {
+  vertical-align: top;
+  display: table-cell;
+  padding-left: 15px;
+}
+
+.meeting .meetingDetails .meetingTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.meeting .meetingDetails .meetingParticipants {
+  font-size: 10pt;
+  vertical-align: middle;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.suggestionTitle {
+  font-size: 12pt;
+  vertical-align: middle;
+  font-weight: 1000;
+  display: inline-block;
+}
+
+.meeting .meetingDetails .meetingDatePlace {
+  font-size: 12.5px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,107 @@
+/* CSS FOR HEADER */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+.profileImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #98bad1, #9460aa);
+  background-color: linear-gradient(135deg, #98bad1, #9460aa);
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  padding: 6px;
+  margin: 5px;
+  box-shadow: rgb(3 8 20 / 10%) 0px 0.15rem 0.5rem, rgb(2 8 20 / 10%) 0px 0.075rem 0.175rem;
+}
+
+.profileImg:hover {
+  background: rgb(87, 206, 150);
+}
+
+.logOutImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 6px;
+  background: linear-gradient(135deg, #98bad1, #9460aa);
+  background-color: linear-gradient(135deg, #98bad1, #9460aa);
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: rgb(3 8 20 / 10%) 0px 0.15rem 0.5rem, rgb(2 8 20 / 10%) 0px 0.075rem 0.175rem;
+}
+
+.logOutImg:hover {
+  background: rgb(87, 206, 150);
+}
+
+.feedbackImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 6px;
+  background: linear-gradient(135deg, #98bad1, #9460aa);
+  background-color: linear-gradient(135deg, #98bad1, #9460aa);
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 7px;
+  box-shadow: rgb(3 8 20 / 10%) 0px 0.15rem 0.5rem, rgb(2 8 20 / 10%) 0px 0.075rem 0.175rem;
+}
+
+.feedbackImg:hover {
+  background: rgb(87, 206, 150);
+}
+
+.logo{
+  float: left;
+  font-size: 34px;
+  padding: 20 20px;
+  color:  #98bad1;
+  padding: 0 20px;
+  font-style: italic;
+}
+
+.header {
+  overflow: hidden;
+  height: 50px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border-radius: 10px; 
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 0.5%;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+@media only screen and (max-width: 999px) {
+  .header {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+.headerRight{
+  float: right;
+  padding-right: 20px;
+  margin-top: 2px;
+  display: block;
+}
+
+.headerLeft{
+  float: left;
+  display: block;
+}
+

@@ -1,0 +1,148 @@
+/* CSS FOR (user) GOAL ENTRY */
+
+#YourGoals {
+  Overflow-y: auto;
+  Overflow-x: hidden;
+}
+
+.title{
+  margin: auto;
+}
+
+.confirm-btn {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #71b7e6, #922cbb);
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: auto;
+  cursor: pointer;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+}
+
+.your-goal-container {
+  border-radius: 6px;
+  width: 96%;
+}
+
+.complete-btn {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background:#cdd2d657;
+  border: 1.5px solid #9943df;
+  border-bottom-width: 2.5px;
+
+  color: #fff;
+  font-size: 16px;
+
+  padding: 2px 7.58px;
+
+  width: auto;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+}
+
+.complete-btn:hover {
+  background-image: url(../images/Tick.png);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(1);
+  filter: hue-rotate(100deg);
+  border: 1.5px solid #05d6a9;
+  border-bottom-width: 2.5px;
+}
+
+.completed-btn {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background:#cdd2d657;
+  border: 1.5px solid #9943df;
+  border-bottom-width: 2.5px;
+
+  color: #fff;
+  font-size: 16px;
+
+  padding: 2px 7.58px;
+
+  width: auto;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+
+  background-image: url(../images/Tick.png);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(1);
+  filter: hue-rotate(100deg);
+  border: 1.5px solid #05d6a9;
+  border-bottom-width: 2.5px;
+}
+
+.completed-btn:hover {
+  cursor:auto;
+}
+
+.yourGoal {
+  font-size: 12px;
+  padding: 15px 10px 10px;
+  display: table;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  
+  width: auto;      /** NEW **/
+  border-radius: 6px;    /** NEW **/
+}
+
+/**** PROFILE PIC IMAGE ****/
+.yourGoal .pfp {
+  box-sizing: content-box;
+  width: 60px;   /**** CHANGE SIZE HERE ****/
+  border: 1.6px solid #ccc;
+  border-radius: 10px;
+}
+
+.yourGoal .yourDetails {
+  vertical-align: top;
+  display: table-cell;
+  padding-left: 12px;
+}
+
+.yourGoal .yourDetails .yourName {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.yourGoal .yourDetails .goalName {
+  font-size: 10pt;
+  vertical-align: middle;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.yourGoal .yourDetails .deadline {
+  font-size: 14px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,163 @@
+/* CSS FOR PROFILE PAGES */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.profile-container {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  position: fixed;
+  margin: auto;
+  max-width: 650px;
+  
+  align-items: center;
+  justify-content: center;
+  
+  height: fit-content;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0px 0px 1px 5000px rgba(0, 0, 0.459);
+  box-shadow: 0px 0px 200px 5000px rgba(0, 0, 0, 0.459);
+  background: linear-gradient(135deg, #7dafd1, #9a36c5);
+  
+  /* background-image: url(../images/Bikini-bottom.jpg);
+  background-size: cover;
+  background-position: center; */
+
+  text-align: center;
+  
+  border-radius: 20px;
+}
+.profile-box {
+  padding: 30px 90px;
+  
+}
+
+.profile-close-btn {
+  display: block;
+  float: right;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 36px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-right: 16px;
+}
+
+.profile-close-btn:hover {
+  color: rgb(211, 211, 211);
+  transform: translateY(0px) scale(1.2);
+}
+
+.profile-pfp {
+  width: 120px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 6px;
+  margin-top: 5px;
+}
+
+.profile-username {
+  font-size: 26px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.profile-email {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.profile-workarea {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.profile-bottom {
+  background: #fff;
+  color: rgb(134, 134, 134);
+  padding: 45px 60px;
+  padding-top: 50px;
+  margin-right: -90px;
+  margin-left: -90px;
+  margin-bottom: -40px;
+  border-radius: 20px;
+  margin-top: -10px;
+  text-align: left;
+  font-size: 14px;
+  
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+.profile-btn {
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 50px;
+  margin-bottom: -50px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-top: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ViewFeedback {
+  color: #ed48fc;
+  box-shadow: 0 1px 8px rgba(195, 42, 233, 0.562);
+}
+
+.GiveFeedback {
+  color: #fc5448;
+  box-shadow: 0 1px 8px rgba(228, 81, 62, 0.562);
+}
+
+.profile-box button:hover {
+  color: rgb(87, 206, 150);
+  box-shadow: 0 2px 8px rgba(87, 206, 150, 0.5);
+}
+
+.edit-profile {
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 3px 13px 1px 10px;
+  margin-top: -25px;
+  margin-right: -40px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #b4b4b4;
+  box-shadow: 0 1px 8px rgba(187, 187, 187, 0.562);
+}
+
+.profile-bio {
+  font-style: italic;
+}
+
+.profile-details {
+  margin-top: 10px;
+}
+.profile-skills {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.profile-interests {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+

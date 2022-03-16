@@ -1,0 +1,110 @@
+/* CSS FOR FORMS */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.feedback-form {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.feedback-input-box {
+  width: auto;
+  height: 52px;
+  margin: 18px 0;
+}
+
+.feedback-input-box input {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 94%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+}
+
+.feedback-input-box select {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  outline: none;
+  padding: 0 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.dropdown-text {
+  height: 100%;
+  padding: 0 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+}
+
+.feedback-textarea textarea {
+  font-family: 'Poppins', sans-serif;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  width: 94%;
+  outline: none;
+  padding: 0 15px;
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+}
+
+.feedback-input-box input:focus, 
+.feedback-input-box input:valid {
+  border-color: #9943df;
+}
+
+.feedback-textarea textarea:focus,
+.feedback-textarea textarea:valid {
+  border-color: #9943df;
+}
+
+.feedback-input-box select:focus {
+  border-color: #9943df;
+}
+
+.feedback-btn {
+  padding-top: 10px;
+}
+
+#feedbackPopup {
+  Overflow-y: auto;
+  Overflow-x: hidden;
+}
+
+.goal-deadline-picker {
+  margin-top: 8px;
+  outline: none;
+  padding: 0 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+}

@@ -1,0 +1,149 @@
+/* CSS FOR INTERESTS PAGE */
+
+.pics {
+  /* Interior Design */
+  background-image: url("https://i.pinimg.com/400x/38/cf/08/38cf0846d92218fe7f88664bc56e7073.jpg");
+
+  /* Football */
+  background-image: url("https://i.pinimg.com/400x/26/7b/9c/267b9c36083a96bcd785b85e41a7e8c8.jpg");
+
+  /* Art */
+  background-image: url("https://i.pinimg.com/400x/a9/e5/60/a9e56077c22bfd00ca63a5e7cacded85.jpg");
+
+  /* Nature Photography */
+  background-image: url("https://i.pinimg.com/400x/ed/30/0e/ed300eb4af53d767f8ea934a572aec9a.jpg");
+
+  /* Animals */
+  background-image: url("https://i.pinimg.com/400x/c0/15/09/c015090b37e6c04fbc080bae7a56e1c9.jpg");
+
+  /* Fitness and Exercise */
+  background-image: url("https://i.pinimg.com/400x/de/08/60/de08609ecf3ded233c087f04c6959f8b.jpg");
+
+  /* Astronomy */
+  background-image: url("https://i.pinimg.com/400x/57/64/ff/5764ff161b0da79c5daeffb0578d60ae.jpg");
+
+  /* Travel */
+  background-image: url("https://i.pinimg.com/400x/3c/0f/3c/3c0f3c9c936da47772b912844a475f90.jpg");
+
+  /* Garden Design */
+  background-image: url("https://i.pinimg.com/400x/d5/dd/1f/d5dd1f7b48b4c47b962f33d00d29f361.jpg");
+
+  /* Food and drink */
+  background-image: url("https://i.pinimg.com/400x/bb/67/7e/bb677e0454fd88293e7fd71d5543e31e.jpg");
+
+  /* Music */
+  background-image: url("https://i.pinimg.com/400x/ab/f1/f0/abf1f0049b62ecc66c18024aa7e34a8d.jpg");
+  background-image: url("https://i.pinimg.com/400x/fe/ac/bc/feacbcef91ebc295d154b09fbca6a778.jpg");
+
+  /* Basketball */
+  background-image: url("https://i.pinimg.com/400x/a7/69/77/a769774709ed84cab1cfe3e0f39d8b02.jpg");
+
+  /* Camping */
+  background-image: url("https://i.pinimg.com/400x/57/dd/e1/57dde1948f0a5ec043df58048d1b5ff1.jpg");
+
+  /* Movies */
+  background-image: url("https://i.pinimg.com/400x/d7/af/9b/d7af9bc7ccccaeb7be896842e7cbf286.jpg");
+
+  /* Vehicles */
+  background-image: url("https://i.pinimg.com/400x/46/21/d9/4621d9d53679c675fefda3fd59c941fa.jpg");
+
+  /* Life Hacks */
+  background-image: url("https://i.pinimg.com/400x/44/f2/a6/44f2a62cfb96a6d10bcc3862fc4bd9f5.jpg");
+
+  /* Fashion */
+  background-image: url("https://i.pinimg.com/400x/55/6f/9a/556f9afacbd32e1528c3b4d068324b59.jpg");
+
+  /* Baking */
+  background-image: url("https://i.pinimg.com/400x/62/86/7a/62867a00a5027d7854fe5805fc38206c.jpg");
+
+  /* Disney */
+  background-image: url("https://i.pinimg.com/400x/89/0d/41/890d41e51653bb196f3f3df2235be584.jpg");
+
+  /* Comedy / Humor */
+  background-image: url("https://i.pinimg.com/400x/17/a7/8b/17a78b8cb649491b3ed0d04d3519c634.jpg");
+
+  /* Writing */
+  background-image: url("https://i.pinimg.com/400x/1b/cc/99/1bcc99969f16af97ea2069f316b78f1f.jpg");
+
+  /* Drawing */
+  background-image: url("https://i.pinimg.com/400x/ad/b0/a8/adb0a89cb7cafe96b4b330de663643a5.jpg");
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 110px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  -webkit-filter: brightness(100%);
+}
+
+.photo:hover {
+  box-shadow: rgba(2, 8, 20, 0.171) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.05);
+  cursor: pointer;
+  filter: blur(2px);
+  -webkit-filter: brightness(70%);
+}
+
+.photo.interest-border:hover {
+  box-shadow: 0px 0px 7px 5px rgba(212, 10, 10, 0.863);
+}
+
+.photo-grid {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  margin: 20px;
+}
+
+.interest-border {
+  box-shadow: 0px 0px 7px 5px rgba(212, 10, 10, 0.863);
+}
+
+/* Medium screens */
+@media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

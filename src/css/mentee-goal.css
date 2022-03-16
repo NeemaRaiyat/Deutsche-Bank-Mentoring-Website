@@ -1,0 +1,59 @@
+/* CSS FOR MENTEE-GOAL ENTRY */
+
+#YourMenteesGoals {
+  Overflow-y: auto;
+  Overflow-x: hidden;
+}
+
+.container {
+  border-radius: 6px;
+  width: 96%;
+}
+
+.container:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateX(5px) scale(1.01);
+  cursor: pointer;
+}
+
+.menteeGoal {
+  font-size: 12px;
+  padding: 15px 10px 10px;
+  display: table;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  
+  width: auto;      /** NEW **/
+  border-radius: 6px;    /** NEW **/
+}
+
+/**** PROFILE PIC IMAGE ****/
+.menteeGoal .pfp {
+  box-sizing: content-box;
+  width: 60px;   /**** CHANGE SIZE HERE ****/
+  border: 1.6px solid #ccc;
+  border-radius: 10px;
+}
+
+.menteeGoal .menteeDetails {
+  vertical-align: top;
+  display: table-cell;
+  padding-left: 12px;
+}
+
+.menteeGoal .menteeDetails .menteeName {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.menteeGoal .menteeDetails .goalName {
+  font-size: 10pt;
+  vertical-align: middle;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.menteeGoal .menteeDetails .deadline {
+  font-size: 14px;
+  box-sizing: border-box;
+}
