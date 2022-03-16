@@ -52,7 +52,7 @@ const App = () => {
 
   return (
     <>
-      {/* <Interests /> */}
+      <Interests />
       
       {beMentor ? <Popup trigger={beMentor} entry={skillList} entryType='BeMentor' setPopupTrigger={setBeMentor} />:null}
 
